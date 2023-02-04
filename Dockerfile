@@ -5,7 +5,7 @@ FROM node:18
 WORKDIR /app
 
 # copy toàn bộ code của ứng dụng vào bên trong working direrctory
-COPY . .
+COPY . /app
 
 # Thực thi mottj câu lệnh trong working directory
 RUN npm install
